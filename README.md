@@ -14,6 +14,7 @@
 - [C2HLSC: Use LLM to Bridge the Software-to-Hardware Design Gap](#c2hlsc--llms-can-bridge-the-software-to-hardware-design-gap)
 - [Masala-CHAI: A Large-Scale SPICE Netlist Dataset for Analog Circuits by Harnessing AI](#masala-chai-a-large-scale-spice-netlist-dataset-for-analog-circuits-by-harnessing-ai)
 - [VeriContaminated: Assessing LLM-Driven Verilog Coding for Data Contamination](#vericontaminated-assessing-llm-driven-verilog-coding-for-data-contamination)
+- [SALAD: Systematic Assessment of Machine Unlearning on LLM-Aided Hardware Design](#salad-systematic-assessment-of-machine-unlearning-on-llm-aided-hardware-design)
 - [Git Submodules (Add / Update / Delete)](#git-submodules-add--update--delete)
 
 ---
@@ -129,6 +130,15 @@ Masala-CHAI is a fully automated framework leveraging large language models (LLM
 We present the first systematic analysis of data contamination in LLM-based Verilog code generation. Using CCD and Min-K% Probability on VerilogEval and RTLLM, we evaluate major models including CodeGen2.5, Mistral 7B, Phi-4 Mini, LLaMA-{1,2,3.1}, GPT-{2,3.5,4o}, DeepSeek-Coder, CodeQwen 1.5, and fine-tuned variants RTLCoder and Verigen. Our results expose significant contamination risks, calling into question current benchmark validity. We further discuss mitigation strategies and quality–fairness trade-offs toward more reliable Verilog LLM evaluation.
 
 - 📄 **Paper:** https://arxiv.org/abs/2503.13572
+- 💻 **Code:** https://github.com/DfX-NYUAD/VeriContaminated
+
+---
+
+## SALAD: Systematic Assessment of Machine Unlearning on LLM-Aided Hardware Design
+**Key Idea:**  
+We present SALAD, the first comprehensive framework for safeguarding LLM-driven hardware design automation. While Large Language Models (LLMs) excel at Verilog code generation, they also introduce data security risks such as benchmark contamination, intellectual property (IP) leakage, and malicious Verilog generation. SALAD employs machine unlearning to selectively remove contaminated datasets, sensitive design artifacts, and harmful code patterns from pre-trained models—without full retraining. Through targeted case studies, we show that unlearning can effectively mitigate security risks while preserving model utility for trustworthy, contamination-free Verilog generation.
+
+- 📄 **Paper:** https://arxiv.org/abs/2506.02089
 - 💻 **Code:** https://github.com/DfX-NYUAD/VeriContaminated
 
 ## Git Submodules (Add / Update / Delete)
