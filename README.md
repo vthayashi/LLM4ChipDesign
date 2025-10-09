@@ -139,7 +139,7 @@ We present the first systematic analysis of data contamination in LLM-based Veri
 We present SALAD, the first comprehensive framework for safeguarding LLM-driven hardware design automation. While Large Language Models (LLMs) excel at Verilog code generation, they also introduce data security risks such as benchmark contamination, intellectual property (IP) leakage, and malicious Verilog generation. SALAD employs machine unlearning to selectively remove contaminated datasets, sensitive design artifacts, and harmful code patterns from pre-trained models—without full retraining. Through targeted case studies, we show that unlearning can effectively mitigate security risks while preserving model utility for trustworthy, contamination-free Verilog generation.
 
 - 📄 **Paper:** https://arxiv.org/abs/2506.02089
-- 💻 **Code:** https://github.com/DfX-NYUAD/VeriContaminated
+- 💻 **Code:** https://github.com/DfX-NYUAD/SALAD
 
 ## Git Submodules (Add / Update / Delete)
 
