@@ -164,6 +164,8 @@ This project is designed to explore the capabilities and limitations of Large La
 - Skills in manual code review and verification of HDL designs
 - Experience with testbench development and internal signal verification
 - Competence in using Iverilog for RTL simulation and debugging
+
+- 📄 **Project Tutorial:** https://github.com/FCHXWH823/LLM4ChipDesign/blob/main/FinalProjects/Verilog%20Adder%20Generation.pdf 
 ---
 
 ## Git Submodules (Add / Update / Delete)
