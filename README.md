@@ -146,6 +146,7 @@ We present SALAD, the first comprehensive framework for safeguarding LLM-driven 
 
 ## Course Project: LLM-Based Verilog Adder Generation and Verification 
 **Project Overview** 
+
 This project is designed to explore the capabilities and limitations of Large Language Models (LLMs) in hardware design, specifically in generating and verifying Verilog code for digital adder circuits. The project consists of two interconnected parts that demonstrate the complete workflow from design generation to verification.
 
 **Project Objectives**
