@@ -36,3 +36,7 @@
 	path = LockForge
 	url = https://github.com/codesanonymousgit-sudo/LockForge.git
 	branch = main
+[submodule "VeriDispatcher"]
+	path = VeriDispatcher
+	url = https://github.com/zwangsyc/VeriOracle.git
+	branch = main
