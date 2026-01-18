@@ -17,6 +17,7 @@
 - [SALAD: Systematic Assessment of Machine Unlearning on LLM-Aided Hardware Design](#salad-systematic-assessment-of-machine-unlearning-on-llm-aided-hardware-design)
 - [LockForge: Automating Paper-to-Code for Logic Locking with Multi-Agent Reasoning LLMs](#lockForge-automating-paper-to-code-for-logic-locking-with-multi-agent-reasoning-llms)
 - [VeriDispatcher: Multi-Model Dispatching through Pre-Inference Difficulty Prediction for RTL Generation Optimization](#veridispatcher-multi-model-dispatching-through-pre-inference-difficulty-prediction-for-rtl-generation-optimization)
+- [Benchmarking Large Language Models for Automated Verilog RTL Code Generation](#benchmarking-large-language-models-for-automated-verilog-rtl-code-generation)
 - [Course Project: LLM-Based Verilog Adder Generation and Verification](#course-project-llm-based-verilog-adder-generation-and-verification)
 - [Git Submodules (Add / Update / Delete)](#git-submodules-add--update--delete)
 
@@ -161,6 +162,15 @@ Prior work mainly prompts or finetunes a single model. What remains not well stu
 
 - 📄 **Paper:** https://www.arxiv.org/abs/2511.22749
 - 💻 **Code:** https://github.com/zwangsyc/VeriOracle/tree/main
+
+---
+
+## Benchmarking Large Language Models for Automated Verilog RTL Code Generation
+**Key Idea:**  
+We characterize the ability of LLMs to generate useful Verilog. For this, we fine-tune pre-trained LLMs on Verilog datasets collected from GitHub and Verilog textbooks. We construct an evaluation framework comprising test-benches for functional analysis and a flow to test the syntax of Verilog code generated in response to problems of varying difficulty.
+
+- 📄 **Paper:** https://arxiv.org/abs/2212.11140
+- 💻 **Code:** https://github.com/shailja-thakur/VGen
 
 ---
 
