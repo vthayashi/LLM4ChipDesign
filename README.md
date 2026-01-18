@@ -20,6 +20,7 @@
 - [Benchmarking Large Language Models for Automated Verilog RTL Code Generation](#benchmarking-large-language-models-for-automated-verilog-rtl-code-generation)
 - [VeriReason: Reinforcement Learning with Testbench Feedback for Reasoning-Enhanced Verilog Generation](#verireason-reinforcement-learning-with-testbench-feedback-for-reasoning-enhanced-verilog-generation)
 - [Unleashing GHOST: An LLM-Powered Framework for Automated Hardware Trojan Design](#unleashing-ghost-an-llm-powered-framework-for-automated-hardware-trojan-design)
+- [ATTRITION: Attacking Static Hardware Trojan Detection Techniques Using Reinforcement Learning](#attrition-attacking-static-hardware-trojan-detection-techniques-using-reinforcement-learning)
 - [Course Project: LLM-Based Verilog Adder Generation and Verification](#course-project-llm-based-verilog-adder-generation-and-verification)
 - [Git Submodules (Add / Update / Delete)](#git-submodules-add--update--delete)
 
@@ -191,6 +192,15 @@ This paper addresses these challenges by proposing GHOST (Generator for Hardware
 
 - 📄 **Paper:** https://arxiv.org/abs/2412.02816
 - 💻 **Code:** https://github.com/NMSU-PEARL/GHOST_benchmarks
+
+---
+
+## ATTRITION: Attacking Static Hardware Trojan Detection Techniques Using Reinforcement Learning
+**Key Idea:**  
+We play the role of a realistic adversary and question the efficacy of HT detection techniques by developing an automated, scalable, and practical attack framework, ATTRITION, using reinforcement learning (RL).
+
+- 📄 **Paper:** https://arxiv.org/abs/2208.12897
+- 💻 **Code:** https://github.com/gohil-vasudev/ATTRITION
 
 ---
 
