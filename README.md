@@ -15,6 +15,8 @@
 - [Masala-CHAI: A Large-Scale SPICE Netlist Dataset for Analog Circuits by Harnessing AI](#masala-chai-a-large-scale-spice-netlist-dataset-for-analog-circuits-by-harnessing-ai)
 - [VeriContaminated: Assessing LLM-Driven Verilog Coding for Data Contamination](#vericontaminated-assessing-llm-driven-verilog-coding-for-data-contamination)
 - [SALAD: Systematic Assessment of Machine Unlearning on LLM-Aided Hardware Design](#salad-systematic-assessment-of-machine-unlearning-on-llm-aided-hardware-design)
+- [LockForge: Automating Paper-to-Code for Logic Locking with Multi-Agent Reasoning LLMs]
+(#lockForge-automating-paper-to-code-for-logic-locking-with-multi-agent-reasoning-llms)
 - [Course Project: LLM-Based Verilog Adder Generation and Verification](#course-project-llm-based-verilog-adder-generation-and-verification)
 - [Git Submodules (Add / Update / Delete)](#git-submodules-add--update--delete)
 
@@ -141,6 +143,15 @@ We present SALAD, the first comprehensive framework for safeguarding LLM-driven 
 
 - 📄 **Paper:** https://arxiv.org/abs/2506.02089
 - 💻 **Code:** https://github.com/DfX-NYUAD/SALAD
+
+---
+
+## LockForge: Automating Paper-to-Code for Logic Locking with Multi-Agent Reasoning LLMs
+**Key Idea:**  
+We present LockForge, a first-of-its-kind, multi-agent large language model (LLM) framework that turns LL descriptions in papers into executable and tested code. LockForge provides a carefully crafted pipeline realizing forethought, implementation, iterative refinement, and a multi-stage validation, all to systematically bridge the gap between prose and practice for complex LL schemes. For validation, we devise (i) an LLM-as-Judge stage with a scoring system considering behavioral checks, conceptual mechanisms, structural elements, and reproducibility on benchmarks, and (ii) an independent LLM-as-Examiner stage for ground-truth assessment.
+
+- 📄 **Paper:** https://arxiv.org/abs/2511.18531
+- 💻 **Code:** https://github.com/codesanonymousgit-sudo/LockForge
 
 ---
 
