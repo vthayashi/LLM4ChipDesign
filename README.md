@@ -18,6 +18,7 @@
 - [LockForge: Automating Paper-to-Code for Logic Locking with Multi-Agent Reasoning LLMs](#lockForge-automating-paper-to-code-for-logic-locking-with-multi-agent-reasoning-llms)
 - [VeriDispatcher: Multi-Model Dispatching through Pre-Inference Difficulty Prediction for RTL Generation Optimization](#veridispatcher-multi-model-dispatching-through-pre-inference-difficulty-prediction-for-rtl-generation-optimization)
 - [Benchmarking Large Language Models for Automated Verilog RTL Code Generation](#benchmarking-large-language-models-for-automated-verilog-rtl-code-generation)
+- [VeriReason: Reinforcement Learning with Testbench Feedback for Reasoning-Enhanced Verilog Generation](#verireason-reinforcement-learning-with-testbench-feedback-for-reasoning-enhanced-verilog-generation)
 - [Course Project: LLM-Based Verilog Adder Generation and Verification](#course-project-llm-based-verilog-adder-generation-and-verification)
 - [Git Submodules (Add / Update / Delete)](#git-submodules-add--update--delete)
 
@@ -171,6 +172,15 @@ We characterize the ability of LLMs to generate useful Verilog. For this, we fin
 
 - 📄 **Paper:** https://arxiv.org/abs/2212.11140
 - 💻 **Code:** https://github.com/shailja-thakur/VGen
+
+---
+
+## VeriReason: Reinforcement Learning with Testbench Feedback for Reasoning-Enhanced Verilog Generation
+**Key Idea:**  
+Inspired by DeepSeek-R1, we introduce VeriReason, a framework integrating supervised fine-tuning with Guided Reward Proximal Optimization (GRPO) reinforcement learning for RTL generation. Using curated training examples and a feedback-driven reward model, VeriReason combines testbench evaluations with structural heuristics while embedding self-checking capabilities for autonomous error correction.
+
+- 📄 **Paper:** https://arxiv.org/abs/2505.11849
+- 💻 **Code:** https://github.com/NellyW8/VeriReason
 
 ---
 
