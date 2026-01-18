@@ -16,6 +16,7 @@
 - [VeriContaminated: Assessing LLM-Driven Verilog Coding for Data Contamination](#vericontaminated-assessing-llm-driven-verilog-coding-for-data-contamination)
 - [SALAD: Systematic Assessment of Machine Unlearning on LLM-Aided Hardware Design](#salad-systematic-assessment-of-machine-unlearning-on-llm-aided-hardware-design)
 - [LockForge: Automating Paper-to-Code for Logic Locking with Multi-Agent Reasoning LLMs](#lockForge-automating-paper-to-code-for-logic-locking-with-multi-agent-reasoning-llms)
+- [VeriDispatcher: Multi-Model Dispatching through Pre-Inference Difficulty Prediction for RTL Generation Optimization](#veridispatcher-multi-model-dispatching-through-pre-inference-difficulty-prediction-for-rtl-generation-optimization)
 - [Course Project: LLM-Based Verilog Adder Generation and Verification](#course-project-llm-based-verilog-adder-generation-and-verification)
 - [Git Submodules (Add / Update / Delete)](#git-submodules-add--update--delete)
 
@@ -151,6 +152,15 @@ We present LockForge, a first-of-its-kind, multi-agent large language model (LLM
 
 - 📄 **Paper:** https://arxiv.org/abs/2511.18531
 - 💻 **Code:** https://github.com/codesanonymousgit-sudo/LockForge
+
+---
+
+## VeriDispatcher: Multi-Model Dispatching through Pre-Inference Difficulty Prediction for RTL Generation Optimization
+**Key Idea:**  
+Prior work mainly prompts or finetunes a single model. What remains not well studied is how to coordinate multiple different LLMs so they jointly improve RTL quality while also reducing cost, instead of running all models and choosing the best output. We define this as the multi-LLM RTL generation problem. We propose VeriDispatcher, a multi-LLM RTL generation framework that dispatches each RTL task to suitable LLMs based on pre-inference difficulty prediction. For each model, we train a compact classifier over semantic embeddings of task descriptions, using difficulty scores derived from benchmark variants that combine syntax, structural similarity, and functional correctness. At inference, VeriDispatcher uses these predictors to route tasks to a selected subset of LLMs.
+
+- 📄 **Paper:** https://www.arxiv.org/abs/2511.22749
+- 💻 **Code:** https://github.com/zwangsyc/VeriOracle/tree/main
 
 ---
 
