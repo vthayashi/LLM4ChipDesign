@@ -253,6 +253,15 @@ We first employ generative adversarial networks to amplify our data in two alter
 
 ---
 
+## NSPG: Natural language Processing-based Security Property Generator for Hardware Security Assurance
+**Key Idea:**  
+We, for the first time, propose a novel and automated Natural Language Processing (NLP)-based Security Property Generator (NSPG). Specifically, our approach utilizes hardware documentation in order to propose the first hardware security-specific language model, HS-BERT, for extracting security properties dedicated to hardware design. It is capable of phasing a significant amount of hardware specification, and the generated security properties can be easily converted into hardware assertions, thereby reducing the manual effort required for hardware verification.
+
+- 📄 **Paper:** https://dl.acm.org/doi/10.1145/3649329.3656255
+- 💻 **Code:** https://github.com/TIES-Lab/NSPG/tree/main
+
+---
+
 ## Course Project: LLM-Based Verilog Adder Generation and Verification 
 **Project Overview** 
 
