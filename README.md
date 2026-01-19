@@ -21,6 +21,7 @@
 - [VeriReason: Reinforcement Learning with Testbench Feedback for Reasoning-Enhanced Verilog Generation](#verireason-reinforcement-learning-with-testbench-feedback-for-reasoning-enhanced-verilog-generation)
 - [Unleashing GHOST: An LLM-Powered Framework for Automated Hardware Trojan Design](#unleashing-ghost-an-llm-powered-framework-for-automated-hardware-trojan-design)
 - [ATTRITION: Attacking Static Hardware Trojan Detection Techniques Using Reinforcement Learning](#attrition-attacking-static-hardware-trojan-detection-techniques-using-reinforcement-learning)
+- [NOODLE: Uncertainty-Aware Hardware Trojan Detection Using Multimodal Deep Learning](#noodle-uncertainty-aware-hardware-trojan-detection-using-multimodal-deep-learning)
 - [Course Project: LLM-Based Verilog Adder Generation and Verification](#course-project-llm-based-verilog-adder-generation-and-verification)
 - [Git Submodules (Add / Update / Delete)](#git-submodules-add--update--delete)
 
@@ -201,6 +202,15 @@ We play the role of a realistic adversary and question the efficacy of HT detect
 
 - 📄 **Paper:** https://arxiv.org/abs/2208.12897
 - 💻 **Code:** https://github.com/gohil-vasudev/ATTRITION
+
+---
+
+## NOODLE: Uncertainty-Aware Hardware Trojan Detection Using Multimodal Deep Learning
+**Key Idea:**  
+We first employ generative adversarial networks to amplify our data in two alternative representation modalities, a graph and a tabular, ensuring that the dataset is distributed in a representative manner. Further, we propose a multimodal deep learning approach to detect hardware Trojans and evaluate the results from both early fusion and late fusion strategies. We also estimate the uncertainty quantification metrics of each prediction for risk-aware decision-making.
+
+- 📄 **Paper:** https://arxiv.org/abs/2401.09479
+- 💻 **Code:** https://github.com/cars-lab-repo/NOODLE?tab=readme-ov-file
 
 ---
 
